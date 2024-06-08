@@ -16,6 +16,11 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class UserEntity {
 
+    public UserEntity(String name) {
+        //TODO Auto-generated constructor stub
+        this.username=name;
+    }
+
     private String username;
 
     private Integer score;
